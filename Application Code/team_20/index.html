@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href=style.css type="text/css" rel="stylesheet">
+    <link href=style1.css type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Montserrat:900|Overpass&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Karla|Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Noto+Serif|Raleway|Lato|Oswald&display=swap">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+        <div class="navbar">
+            <img src="images/logo1.jpeg" id="logo">
+            <div id="toggle-btn" onclick="change()">
+                <span id="side1"></span>
+                <span id="side2"></span>
+                <span id="side3"></span>
+            </div>
+            <ul id="menu">
+                <a href="#" style=" text-decoration: none;">
+                    <li>HOME</li>
+                </a>
+                <a href="#background-text1" style=" text-decoration: none;">
+                    <li>SIGN UP</li>
+                </a>
+                <a href="#aboutus" style=" text-decoration: none;">
+                    <li>ABOUT SOFTWARE</li>
+                </a>
+                <a href="https://github.com/NinjaAadi" style=" text-decoration: none;">
+                    <li>FOLLOW ON GITHUB</li>
+                </a>
+            </ul>
+        </div>
+    <br /><br /><br /><br />
+    <br/><br/>
+    <div class="container pt-3 d-flex"style="justify-content:center">
+            <h1 id="quote"><i>"WRITING IS EASY, ALL YOU HAVE TO DO IS BACKSPACE THE WRONG WORDS"</i></h1>
+    </div>
+    <div id="background-text">
+        
+        <h1 id="login-form">LOGIN</h1>
+        <form action="login.php" method="POST">
+        <input type="text" placeholder="Username"id="input" required name="username">
+        <input type="password" placeholder="Password"id="input"required name="password">
+        <button type="submit"id="btn">Login</button>
+        </form>
+    </div>
+    <div id="background-text1">
+        <h1 id="login-form">SIGN UP</h1>
+        <form action="sign-up.php" method="POST">
+        <input name="username" type="text" placeholder="Username" id="input" required >
+        <input  name="password"type="password" placeholder="Password" id="input" required >
+        <button type="submit" id="btn">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
+<script>
+    /* Script for button toggling*/
+    $(document).ready(function () {
+        $('#toggle-btn').click(function () {
+            $('#menu').toggle(300, "swing");
+        });
+    });
+</script>

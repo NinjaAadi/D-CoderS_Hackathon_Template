@@ -1,0 +1,180 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-image:url(images/background2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#background-text{
+    padding-top:50px;
+    display:block;
+    width:550px;
+    height:450px;
+    background:rgba(0,0,0,0.3);
+    margin-top:5%;
+    bottom:5%;
+    margin-left:28%;
+    border-radius: 30px;
+    margin-bottom:20px;
+}
+#background-text1{
+        padding-top:50px;
+
+      display:block;
+    width:550px;
+    height:450px;
+    background:rgba(0,0,0,0.3);
+    margin-left: 30%;
+    bottom:5%;
+    border-radius: 30px;
+}
+
+#login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    margin-bottom:12%;
+    
+    
+}
+#input{
+    display: block;
+    width:80%;
+    outline:none;
+    height:50px;
+    margin-left:10%;
+    margin-bottom:10%;
+    border-radius:15px;
+    padding:10px;
+    border:1px solid grey;
+}
+#input::placeholder{
+    color:black;
+}
+#btn{
+    padding:7px;
+     margin-left:10%;
+     width:80px;
+     border-radius:10px;
+     outline:none;
+}
+#btn:active{
+    background:#1798a5;
+    color:white;
+}
+#body-text{
+    width:300px;
+    height:200px;
+    display: inline-block;
+    margin-left:26%;
+    margin-top:8%;
+    color:rgba(0,0,0,0.8);
+}
+#topic-heading{
+    font-size:50px;
+}
+#quote{
+    font-size:25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+@media only screen and (max-width: 2759px) {
+    #background-text1,#background-text{
+        margin-left:40%;
+    }
+}
+@media only screen and (max-width: 2318px) {
+    #background-text1,#background-text{
+        margin-left:40%;
+    }
+}
+@media only screen and (max-width: 1581px) {
+    #background-text1,#background-text{
+        margin-left:33%;
+    }
+}
+@media only screen and (max-width: 1366px) {
+  #background-text1,#background-text{
+        margin-left:35%;
+    }
+}
+@media only screen and (max-width: 1170px) {
+  #background-text1,#background-text{
+        margin-left:30%;
+    }
+}
+@media only screen and (max-width: 1024px) {
+  #background-text1,#background-text{
+        margin-left:25%;
+    }
+}
+
+@media only screen and (max-width: 938px) {
+  #background-text1,#background-text{
+        margin-left:25%;
+    }
+}
+@media only screen and (max-width: 834px) {
+  #background-text1,#background-text{
+        margin-left:21%;
+    }
+}
+@media only screen and (max-width: 770px) {
+  #background-text1,#background-text{
+        margin-left:17%;
+    }
+}
+@media only screen and (max-width: 726px) {
+  #background-text1,#background-text{
+        margin-left:14%;
+    }
+}
+@media only screen and (max-width: 662px) {
+  #background-text1,#background-text{
+        margin-left:10%;
+    }
+}
+@media only screen and (max-width: 628px) {
+  #background-text1,#background-text{
+        margin-left:10%;
+        width:500px;
+    }
+}
+@media only screen and (max-width: 568px) {
+  #background-text1,#background-text{
+        margin-left:9%;
+        width:450px;
+    }
+}
+@media only screen and (max-width: 520px) {
+  #background-text1,#background-text{
+        margin-left:13%;
+        width:400px;
+    }
+}
+@media only screen and (max-width: 480px) {
+  #background-text1,#background-text{
+        margin-left:8%;
+        width:400px;
+    }
+}
+@media only screen and (max-width: 414px) {
+  #background-text1,#background-text{
+        margin-left:1%;
+        width:400px;
+    }
+}
+@media only screen and (max-width: 382px) {
+  #background-text1,#background-text{
+        margin-left:2%;
+        width:350px;
+    }
+}
+@media only screen and (max-width: 328px) {
+  #background-text1,#background-text{
+        margin-left:1%;
+        width:350px;
+    }
+}
